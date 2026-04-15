@@ -184,7 +184,7 @@ oc delete authpolicy ai-proxy-auth -n user1-devspaces
 oc delete tokenratelimitpolicy openai-token-limits -n user1-devspaces
 ```
 
-* Reset the devspaces folfer
+* Reset the devspaces folder
 ```bash
 step 10
 ```
