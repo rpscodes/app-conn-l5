@@ -171,3 +171,21 @@ iamagolduser1
 **Step 14:** Repeat the prompt injection message from Step 11 a few times.
 
 **Step 15:** Observe that the gold tier allows significantly more tokens than the free tier, as defined by the rate limit policy (500 vs. 50 tokens per minute).
+
+
+### Reset the excercise
+
+* Delete the auth policies
+```bash
+oc delete authpolicy ai-proxy-auth -n user1-devspaces
+```
+* Delete the token policy
+```bash
+oc delete tokenratelimitpolicy openai-token-limits -n user1-devspaces
+```
+
+* Reset the devspaces folfer
+```bash
+step 10
+```
+
