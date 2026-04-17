@@ -5,7 +5,7 @@
 **Step 1:** Run the following from your DevSpaces terminal to set up your files:
 
 ```bash
-step 10
+step 9
 ```
 
 **Step 2:** Point to the Forage Scribe agent URL and key in `app.properties`.
